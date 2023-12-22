@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div class="ammount-container">
+        <div class="deposit ammount-box">
+            <div class="min-diposit">
+                <h1 class = "amount" id = "deposit">00</h1>
+                <p>deposite</p>
+            </div>
+        </div>
+        <div class="withdraw ammount-box">
+            <div class="min-diposit">
+                <h1 class = "amount " id = "withdraw">00</h1>
+                <p>withdraw</p>
+            </div>
+        </div>
+        <div class="total ammount-box">
+            <div class="min-diposit">
+                <h1 id = "total" class = "amount">00</h1>
+                <p>total</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="deposite-withdraw-container">
+        <div class="deposite-box input-box">
+            <input type="number" id = "deposit-ammount">
+            <br>
+            <button onclick = "handledeposit()" class="btn depost-btn">deposit</button>
+        </div>
+        <div class="withdraw-box input-box">
+            <input type="number" id = "withdraw-input">
+            <br>
+            <button onclick = "handwithdraw()" class="btn withdraw-btn">withdraw</button>
+        </div>
+    </div>
+
+    <!-- here is my script file -->
+    <script src="project.js"></script>
+</body>
+</html>
