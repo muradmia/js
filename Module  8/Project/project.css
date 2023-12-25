@@ -1,0 +1,33 @@
+.main-container{
+    padding : 30px 30px;
+    text-align: center;
+}
+.input{
+    padding : 10px 10px;
+}
+.main-btn{
+    padding : 10px 10px;
+    background-color: rgb(31, 150, 214);
+    border : none;
+    color : white !important;
+}
+.box{
+    width : 300px;
+    height : 350px;
+    border: 1px solid gray;
+    padding : 10px;
+    text-align: center;
+}
+#meals-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-img{
+    width : 300px;
+    height : 250px;
+ 
+    padding : 20px;
+
+}
