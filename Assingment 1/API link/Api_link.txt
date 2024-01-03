@@ -1,0 +1,3 @@
+https://openapi.programming-hero.com/api/videos/categories
+https://openapi.programming-hero.com/api/videos/category/$%7Bid%7D
+https://openapi.programming-hero.com/api/videos/category/1000
